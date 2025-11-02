@@ -2,4 +2,9 @@
 <resources>
 
     <style name="Theme.FoodMart" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/animated_splash_screen_icon</item>
+        <item name="windowSplashScreenBackground">@color/orange</item>
+        <item name="postSplashScreenTheme">@style/Theme.FoodMart</item>
+    </style>
 </resources>
